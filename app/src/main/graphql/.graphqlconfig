@@ -1,0 +1,16 @@
+{
+  "name": "Untitled GraphQL Schema",
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://debaters.world:8080/graphql",
+        "headers": {
+          "user-agent": "JS GraphQL",
+          "api-key": "demoKeyOfApi"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

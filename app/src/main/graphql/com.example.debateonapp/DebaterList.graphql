@@ -1,0 +1,18 @@
+query DebaterList{
+    homeDebates(offset: 0, size: 5) {
+        title
+        description
+        creatorName
+    }
+}
+
+
+#query DebaterList{
+#    homeDebates{
+#        title
+#        creatorName
+#        description
+#    }
+#}
+
+
