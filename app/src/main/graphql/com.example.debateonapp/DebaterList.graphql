@@ -6,7 +6,6 @@ query DebaterList{
     }
 }
 
-
 #query DebaterList{
 #    homeDebates{
 #        title
