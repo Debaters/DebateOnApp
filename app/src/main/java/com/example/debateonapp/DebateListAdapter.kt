@@ -14,6 +14,7 @@ class DebateListAdapter (
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val debateTitle: TextView = view.findViewById(R.id.debateTitle)
         val debateCreatedBy: TextView = view.findViewById(R.id.debateCreatedBy)
+
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {

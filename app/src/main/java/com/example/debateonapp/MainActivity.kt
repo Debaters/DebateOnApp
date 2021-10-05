@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                     debatelist.adapter = adapter
                     adapter.notifyDataSetChanged()
                     debatelist.layoutManager = layout
-
                 }
 
             }
